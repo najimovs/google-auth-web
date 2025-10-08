@@ -3,6 +3,8 @@ import "@app/ui.css"
 const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID
 const userInfo = document.getElementById( "user-info" )
 
+console.log( CLIENT_ID )
+
 // Google Identity init
 window.onload = () => {
 
@@ -20,9 +22,6 @@ window.onload = () => {
 			size: "large",
 		}
 	)
-
-	// optional: auto select old users
-	google.accounts.id.prompt()
 }
 
 // callback function when user signs in
