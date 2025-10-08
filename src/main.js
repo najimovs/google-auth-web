@@ -1,6 +1,6 @@
 import "@app/ui.css"
 
-const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID
+const CLIENT_ID = "1065260752217-644mckvp6hditaevp7efea4mqjcinni8.apps.googleusercontent.com"
 const userInfo = document.getElementById( "user-info" )
 
 console.log( CLIENT_ID )
